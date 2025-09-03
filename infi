@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infilink - IoT Visioners</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #2a9d8f;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+    nav {
+      background: #264653;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2a9d8f;
+    }
+    ul {
+      list-style: square;
+    }
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="INFI LINK.png" alt="Infilink Logo">
+    <h1>INFILINK</h1>
+    <p><b>IoT Visioners</b> - Live Stock Management & Monitoring Animals’ Actions and Health</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#team">Team</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to Infilink</h2>
+    <p>
+      We are <b>IoT Visioners</b>, a team dedicated to developing smart solutions for <b>Live Stock Management</b>.
+      Our focus is on monitoring animals’ health and actions using IoT devices to improve farmers’ efficiency,
+      animal welfare, and productivity.
+    </p>
+  </div>
+
+  <div class="container" id="team">
+    <h2>Our Team</h2>
+    <ul>
+      <li><b>Shaik Ayesha</b> - Team Leader</li>
+      <li><b>Gayathri</b> - Handles emails with clients</li>
+      <li><b>Anitha</b> - Handles PPT information</li>
+      <li><b>Triveni</b> - Handles Questions and Answers</li>
+      <li><b>Sabiha</b> - Handles PPT information</li>
+    </ul>
+  </div>
+
+  <div class="container" id="projects">
+    <h2>Our Projects</h2>
+    <ul>
+      <li>Animal Health Monitoring using IoT Sensors</li>
+      <li>Wearable Collar Devices to Track Cattle Movements</li>
+      <li>Smart Dairy Farm Management System</li>
+      <li>IoT-Based Disease Detection in Poultry</li>
+      <li>Real-Time Alerts for Abnormal Animal Behavior</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>© 2025 INFILINK | IoT Visioners</p>
+  </footer>
+
+</body>
+</html>
